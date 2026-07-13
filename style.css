@@ -1,4 +1,9 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
 
 
 /* Header unit */
@@ -57,4 +62,57 @@
 
 .button:hover {
   background: #1f1485;
+}
+
+/* section 1 */
+
+.bgimage {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgb(0, 0, 0.7)), url("./Image/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 815px;
+  width: 100%;
+}
+
+.text {
+  padding-top: 200px;
+  color: #fff;
+}
+
+.content {
+  width: 1350px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button2 {
+  background-color: #1D4ED8;
+  color: #fff;
+  border: none;
+  padding: 18px 36px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: #1f1485;
+}
+
+.headline {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 22px;
+  font-weight: 180;
+  width: 829px;
+  padding-top: 20px;
 }
