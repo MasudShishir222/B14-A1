@@ -1,0 +1,60 @@
+
+
+
+/* Header unit */
+
+.navbar {
+  width: 100%;
+  background: #fff;
+  padding: 24px 0;
+}
+
+.navmenu {
+
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 36px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #575757;
+  font-size: 18px;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.navlink:hover {
+  color: #dad9d9;
+}
+
+.button {
+  background: #1D4ED8;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1f1485;
+}
