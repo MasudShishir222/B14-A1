@@ -159,3 +159,113 @@
 .stext2 {
   color: #575757;
 }
+
+
+/* section3 */
+
+.speaker {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.securespot {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s2text {
+  width: 1350px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.s2sub {
+  font-size: 55px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.s2para {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.pricing {
+  width: 1350px;
+  display: flex;
+  margin-top: 50px;
+  padding: 50px 80px;
+  justify-content: space-between;
+}
+
+.pricebox {
+  border: 1px solid #E5E7EB;
+  min-width: 370px;
+  border-radius: 12px;
+  padding: 32px 50px;
+  margin-bottom: 80px;
+  text-align: left;
+  line-height: 2.0;
+}
+
+.priceboxb {
+  background-color: #0D1B2A;
+  min-width: 370px;
+  border-radius: 12px;
+  padding: 32px 50px;
+  margin-bottom: 80px;
+  text-align: left;
+  color: #fff;
+  line-height: 2.0;
+}
+
+.button3 {
+  color: #1D4ED8;
+  border: 1px solid #1D4ED8;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.button3:hover {
+  cursor: pointer;
+  background-color: #dad9d9;
+}
+
+.button3b {
+  color: #fff;
+  background-color: #1D4ED8;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.button3b:hover {
+  cursor: pointer;
+  background-color: #1f1485;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #E5E7EB;
+  margin: 24px 0;
+}
+
+.cash {
+  font-size: 35px;
+  font-weight: 600;
+}
