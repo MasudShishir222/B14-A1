@@ -138,6 +138,10 @@
   margin-top: 50px;
 }
 
+.speakerimg {
+  width: 100%;
+}
+
 .speakerbox {
   border: 1px solid #E5E7EB;
   border-radius: 12px;
@@ -268,6 +272,33 @@
 .cash {
   font-size: 35px;
   font-weight: 600;
+}
+
+/* section 4 Ai */
+
+.title {
+  font-size: 55px;
+  font-weight: 600;
+  padding-bottom: 22px;
+}
+
+.sponser-title {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.sponsers-logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  gap: 20px;
+  padding: 65px 0;
 }
 
 
