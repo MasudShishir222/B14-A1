@@ -5,7 +5,6 @@
   font-family: "Inter", sans-serif;
 }
 
-
 /* Header unit */
 
 .navbar {
@@ -115,4 +114,48 @@
   font-weight: 180;
   width: 829px;
   padding-top: 20px;
+}
+
+/* section 2 */
+
+.meet {
+  width: 1320px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 65px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000102;
+}
+
+.speakers {
+  width: 1350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.speakerbox {
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+
+.intext {
+  padding-left: 20px;
+  line-height: 1.6;
+  padding-top: 12px;
+}
+
+.stext {
+  color: #1D4ED8;
+  font-weight: 600;
+}
+
+.stext2 {
+  color: #575757;
 }
